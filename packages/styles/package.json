@@ -4,7 +4,8 @@
   "description": "Styles for prima pattern library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node-sass-chokidar ./src/prima.scss ./build/prima.css --watch --recursive --include-path ./src --usePolling --polling-interval 500",
+    "build": "node-sass-chokidar ./src/prima.scss ./build/prima.css"
   },
   "author": "Mike Hudson <mike@eben.co.nz>",
   "license": "ISC",
