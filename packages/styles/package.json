@@ -1,0 +1,14 @@
+{
+  "name": "prima-styles",
+  "version": "1.0.0",
+  "description": "Styles for prima pattern library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Hudson <mike@eben.co.nz>",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass-chokidar": "^1.3.3"
+  }
+}
