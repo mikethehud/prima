@@ -1,0 +1,6 @@
+@mixin prima-text() {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: $sizing-l;
+  -webkit-font-smoothing: antialiased;
+}
