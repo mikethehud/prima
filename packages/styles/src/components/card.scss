@@ -1,0 +1,17 @@
+@mixin highlight-color($color) {
+  border-bottom: $sizing-xs solid $color;
+}
+
+.card {
+  display: inline-block;
+  width: auto;
+  padding: $sizing-m;
+  box-shadow: 0px $sizing-xs $sizing-xl 0px rgba(0, 0, 0, 0.15);
+  border-radius: $sizing-xs;
+
+  @each $color, $value in $theme-colors {
+    &.highlight-#{$color} {
+      border-top: $sizing-s solid $value;
+    }
+  }
+}
