@@ -7,7 +7,7 @@ module.exports = {
   components: "src/**/*.tsx",
   propsParser: require("react-docgen-typescript").parse,
   require: [
-    path.join(__dirname, "../styles/build/prima.css"),
+    path.join(__dirname, "node_modules/prima-styles/build/prima.css"),
     path.join(__dirname, "styleguide/globals.js")
   ],
   title: "Prima Pattern Library",
