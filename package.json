@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "prima",
   "private": true,
   "devDependencies": {
     "lerna": "^3.0.5"
