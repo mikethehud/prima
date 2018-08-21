@@ -2,7 +2,7 @@
 
 Thanks so much for considering to contribute to Prima! 🎉
 
-Please follow the following steps when making contributions to this repository.
+Please follow these steps when making contributions to this repository.
 
 ### 1. Find / Create the Issue
 
