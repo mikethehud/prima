@@ -6,7 +6,7 @@ Please follow these steps when making contributions to this repository.
 
 ### 1. Find / Create the Issue
 
-Before you can start making pull requests, make sure there is an issue created for the speicific feature or bug you want to tackle.
+Before you start making pull requests, make sure there is an issue created for the speicific feature or bug you want to tackle.
 
 ### 2. Get your development environment running
 
@@ -18,13 +18,13 @@ To install all our dependencies with Lerna, you need to run
 npm run bootstrap
 ```
 
-In the root directory of your fork. Once the install process is finished, run
+In the root directory of the fork. Once the install process is finished, run
 
 ```sh
 npm run start
 ```
 
-To load up the development environment. The style guide will be availbale at http://localhost:6060.
+To load up the development environment. The Prima style guide with all the components will be visible at http://localhost:6060.
 
 ## Code of Conduct
 
