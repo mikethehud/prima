@@ -1,0 +1,9 @@
+.buttonGroup {
+  .button {
+    margin-right: $sizing-s;
+
+    &:last-of-type {
+      margin-right: 0px;
+    }
+  }
+}
