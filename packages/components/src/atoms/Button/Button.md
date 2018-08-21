@@ -1,10 +1,10 @@
 #### Normal
 
 ```jsx
-<Button text="Hello world" />{' '}
-<Button text="Hello world" color="primary" />{' '}
-<Button text="Hello world" color="secondary" />{' '}
-<Button text="Hello world" color="success" />{' '}
+<Button text="Hello world" />
+<Button text="Hello world" color="primary" />
+<Button text="Hello world" color="secondary" />
+<Button text="Hello world" color="success" />
 <Button text="Hello world" color="attention" />
 ```
 
