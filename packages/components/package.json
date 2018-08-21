@@ -1,7 +1,7 @@
 {
-  "name": "prima-components",
-  "version": "0.1.0",
-  "private": true,
+  "name": "prima",
+  "version": "0.0.1",
+  "private": false,
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
@@ -21,6 +21,7 @@
     "@types/node": "^10.7.1",
     "@types/react": "^16.4.11",
     "@types/react-dom": "^16.0.7",
+    "prima-styles": "^0.0.1",
     "react-docgen-typescript": "^1.6.3",
     "react-styleguidist": "^7.2.3",
     "typescript": "^3.0.1"
