@@ -6,3 +6,11 @@ $color-white: #ffffff;
 $color-green: #06d79c;
 $color-black: #222222;
 $color-grey: #f2f2f2;
+
+$theme-colors: (
+  default: $color-grey,
+  primary: $color-blue,
+  secondary: $color-greyblue,
+  attention: $color-orange,
+  success: $color-green
+);
