@@ -11,4 +11,4 @@ Prima is a pattern library for React in the early stages of development. The onl
 
 ## Contributing
 
-We welcome volunteer contributors to help drive this project forward. Please start by reading our [contributing guidelines](contributing).
+We welcome volunteer contributors to help drive this project forward. Please start by reading our [contributing guidelines](CONTRIBUTING.md).
