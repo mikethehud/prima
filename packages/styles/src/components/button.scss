@@ -48,7 +48,6 @@
   position: relative;
   @include prima-text();
   border-radius: 4px;
-  margin: $sizing-xs;
   cursor: pointer;
   transition: all $base-transition-unit ease-out;
 
