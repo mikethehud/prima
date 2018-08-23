@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup renders correctly 1`] = `
+<div
+  className="buttonGroup"
+/>
+`;
+
+exports[`ButtonGroup renders with multiple buttons inside 1`] = `
+<ButtonGroup>
+  <div
+    className="buttonGroup"
+  >
+    <Button
+      arrow={false}
+      color="default"
+      text="Hello"
+      type="normal"
+    >
+      <button
+        className="button normal default"
+      >
+        <span>
+          Hello
+        </span>
+      </button>
+    </Button>
+    <Button
+      arrow={false}
+      color="default"
+      text="Hello"
+      type="normal"
+    >
+      <button
+        className="button normal default"
+      >
+        <span>
+          Hello
+        </span>
+      </button>
+    </Button>
+  </div>
+</ButtonGroup>
+`;
+
+exports[`ButtonGroup renders with one button inside 1`] = `
+<ButtonGroup>
+  <div
+    className="buttonGroup"
+  >
+    <Button
+      arrow={false}
+      color="default"
+      text="Hello"
+      type="normal"
+    >
+      <button
+        className="button normal default"
+      >
+        <span>
+          Hello
+        </span>
+      </button>
+    </Button>
+  </div>
+</ButtonGroup>
+`;
