@@ -2,14 +2,14 @@
 
 import { mount, shallow } from "enzyme"
 import * as React from "react"
-import Button from "../atoms/Button/Button"
+import Button from "../Button/Button"
 import {
   Card,
   CardBody,
   CardButtons,
   CardSubtitle,
   CardTitle
-} from "../molecules/Card/Card"
+} from "../Card/Card"
 import { ThemeColor } from "../types"
 
 const highlightColors: ThemeColor[] = [
