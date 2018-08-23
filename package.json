@@ -6,6 +6,7 @@
   },
   "scripts": {
     "start": "lerna run start --parallel",
-    "bootstrap": "lerna run bootstrap"
+    "bootstrap": "lerna run bootstrap",
+    "test": "lerna run test --parallel"
   }
 }

@@ -1,24 +1,19 @@
 import classNames from "classnames"
 import * as React from "react"
+import { ButtonType, ThemeColor } from "../../types"
 
 interface ButtonProps {
   /** Content of the button */
   text: string
 
   /** Button type */
-  type: "normal" | "outline" | "ghost"
+  type?: ButtonType
 
   /** Button color */
-  color:
-    | "default"
-    | "primary"
-    | "secondary"
-    | "success"
-    | "attention"
-    | "negative"
+  color?: ThemeColor
 
   /** Display an arrow? */
-  arrow: boolean
+  arrow?: boolean
 }
 
 const RightArrow = (
@@ -42,6 +37,7 @@ const Button: React.SFC<ButtonProps> = ({ arrow, color, text, type }) => {
 }
 
 Button.defaultProps = {
+  arrow: false,
   color: "default",
   type: "normal"
 }

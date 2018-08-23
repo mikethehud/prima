@@ -10,20 +10,30 @@
   "scripts": {
     "cra:start": "react-scripts-ts start",
     "cra:build": "react-scripts-ts build",
-    "cra:test": "react-scripts-ts test --env=jsdom",
     "cra:eject": "react-scripts-ts eject",
     "start": "styleguidist server",
-    "build": "styleguidist build"
+    "build": "styleguidist build",
+    "test": "react-scripts-ts test --env=jsdom"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.6",
+    "@types/enzyme": "^3.1.13",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
     "@types/jest": "^23.3.1",
     "@types/node": "^10.7.1",
     "@types/react": "^16.4.11",
     "@types/react-dom": "^16.0.7",
+    "enzyme": "^3.4.4",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "enzyme-to-json": "^3.3.4",
     "prima-styles": "^0.0.1",
     "react-docgen-typescript": "^1.6.3",
     "react-styleguidist": "^7.2.3",
     "typescript": "^3.0.1"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }

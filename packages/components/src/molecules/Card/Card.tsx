@@ -1,8 +1,14 @@
 import classNames from "classnames"
 import * as React from "react"
+import { ThemeColor } from "../../types"
+
+import CardBody from "./CardBody"
+import CardButtons from "./CardButtons"
+import CardSubtitle from "./CardSubtitle"
+import CardTitle from "./CardTitle"
 
 interface CardProps {
-  highlight: "primary" | "secondary" | "success" | "attention"
+  highlight?: ThemeColor
 }
 
 const Card: React.SFC<CardProps> = ({ children, highlight }) => {
@@ -14,3 +20,5 @@ const Card: React.SFC<CardProps> = ({ children, highlight }) => {
 }
 
 export default Card
+
+export { Card, CardBody, CardButtons, CardSubtitle, CardTitle }

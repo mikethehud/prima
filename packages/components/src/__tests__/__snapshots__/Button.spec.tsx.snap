@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button can be of type ghost 1`] = `
+<button
+  className="button ghost default"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Button can be of type normal 1`] = `
+<button
+  className="button normal default"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Button can be of type outline 1`] = `
+<button
+  className="button outline default"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Button can have an arrow 1`] = `
+<button
+  className="button normal default arrow"
+>
+  <span>
+    Hello
+  </span>
+  <svg
+    viewBox="0 0 512 512"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button can have color attention 1`] = `
+<button
+  className="button normal attention"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Button can have color default 1`] = `
+<button
+  className="button normal default"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Button can have color negative 1`] = `
+<button
+  className="button normal negative"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Button can have color primary 1`] = `
+<button
+  className="button normal primary"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Button can have color secondary 1`] = `
+<button
+  className="button normal secondary"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Button can have color success 1`] = `
+<button
+  className="button normal success"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Button renders correctly 1`] = `
+<button
+  className="button normal default"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
