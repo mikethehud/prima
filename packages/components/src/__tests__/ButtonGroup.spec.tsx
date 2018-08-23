@@ -2,8 +2,8 @@
 
 import { mount, shallow } from "enzyme"
 import * as React from "react"
-import Button from "../atoms/Button/Button"
-import ButtonGroup from "../molecules/ButtonGroup/ButtonGroup"
+import Button from "../Button/Button"
+import ButtonGroup from "../ButtonGroup/ButtonGroup"
 
 describe("ButtonGroup", () => {
   it("renders correctly", () => {

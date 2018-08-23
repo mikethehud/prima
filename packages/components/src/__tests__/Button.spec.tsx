@@ -2,7 +2,7 @@
 
 import { shallow } from "enzyme"
 import * as React from "react"
-import Button from "../atoms/Button/Button"
+import Button from "../Button/Button"
 import { ButtonType, ThemeColor } from "../types"
 
 const buttonColors: ThemeColor[] = [
