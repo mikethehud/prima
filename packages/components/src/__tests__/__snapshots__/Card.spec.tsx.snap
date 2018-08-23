@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card can have highlight with color color attention 1`] = `
+<button
+  className="button normal attention"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Card can have highlight with color color default 1`] = `
+<button
+  className="button normal default"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Card can have highlight with color color negative 1`] = `
+<button
+  className="button normal negative"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Card can have highlight with color color primary 1`] = `
+<button
+  className="button normal primary"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Card can have highlight with color color secondary 1`] = `
+<button
+  className="button normal secondary"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Card can have highlight with color color success 1`] = `
+<button
+  className="button normal success"
+>
+  <span>
+    Hello
+  </span>
+</button>
+`;
+
+exports[`Card renders a cardbody 1`] = `
+<Card>
+  <div
+    className="card"
+  >
+    <CardBody>
+      <div
+        className="card-body"
+      >
+        Hello
+      </div>
+    </CardBody>
+  </div>
+</Card>
+`;
+
+exports[`Card renders cardbuttons 1`] = `
+<Card>
+  <div
+    className="card"
+  >
+    <CardButtons>
+      <div
+        className="card-buttons"
+      >
+        <Button
+          arrow={false}
+          color="default"
+          text="Hello"
+          type="normal"
+        >
+          <button
+            className="button normal default"
+          >
+            <span>
+              Hello
+            </span>
+          </button>
+        </Button>
+      </div>
+    </CardButtons>
+  </div>
+</Card>
+`;
+
+exports[`Card renders correctly 1`] = `
+<div
+  className="card"
+/>
+`;
+
+exports[`Card renders subtitle 1`] = `
+<Card>
+  <div
+    className="card"
+  >
+    <CardSubtitle>
+      <div
+        className="card-subtitle"
+      >
+        Hello
+      </div>
+    </CardSubtitle>
+  </div>
+</Card>
+`;
+
+exports[`Card renders title 1`] = `
+<Card>
+  <div
+    className="card"
+  >
+    <CardTitle>
+      <div
+        className="card-title"
+      >
+        Hello
+      </div>
+    </CardTitle>
+  </div>
+</Card>
+`;
